@@ -3,8 +3,12 @@
     color: white;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .navigation .menuBar{
-    height: 80px;
+    height: 8rem;
     width: 100%;
     background-color: rgb(58, 13, 109);
     opacity: 1;
@@ -13,7 +17,7 @@
 .navigation{
     background-image: url('img2.jpg')  ;
     background-size: cover;
-    height: 685px;
+    height: 68.5rem;
     width: auto;    
     width: 100%;
     opacity: 0.95;
@@ -24,27 +28,30 @@
 
 .navigation .menuBar .logo{    
     width: 20%;    
-    line-height: 80px;
+    line-height: 8rem;
     float: left;
     
 }
 .navigation .menuBar .logo h2{
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 25px;
+    font-size: 2.5rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
+    user-select: none;
 }
 
 .navigation .menuBar .menu{ 
-    line-height: 80px;
+    line-height: 8rem;
 }
 
 .navigation .menuBar .menu ul{
     display: flex;    
     padding: 0px;
     float: right;
-    justify-content: center;    
+    justify-content: center;   
+    user-select: none; 
 }
 
 
@@ -52,24 +59,23 @@
     list-style: none;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    width: 272px;
+    width: 27.2rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 1.6rem;
 }
 
 .navigation .menuBar .menu ul li ul{
     display: inline-block;
     display: none;
-    
+        
 }
 
 .navigation .menuBar .menu ul li ul li{
     font-family: 'Montserrat', sans-serif;
-    height: 50px;
+    height: 5rem;
     background-color: rgb(58, 13, 109);
-    line-height: 50px;
+    line-height: 5rem;
     border-radius: 2px;
-    
 }
 
 
@@ -90,11 +96,12 @@
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(233, 88, 88);
     color: white;
-    height: 44px;
-    width: 110px;
+    height: 4.4rem;
+    width: 11rem;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 1.5rem;
+    user-select: none;
 }
 
 #menu_btn:hover{
@@ -104,9 +111,9 @@
 .navigation .hed1{
     font-family: 'Mukta', sans-serif;
     box-sizing: border-box;
-    font-size: 72px;
+    font-size: 7.2rem;
     color: white;
-    text-align: center;
+    text-align: center;    
 }
 
 .navigation h1{
@@ -116,13 +123,13 @@
 .navigation h4{
     font-family: Lucida Sans Unicode;
     text-align: center;
-    font-size: 20px;
+    font-size: 2rem;
     color: whitesmoke;
 }
 
 #btn2{
-    width: 800px;
-    height: 175px;
+    width: 80rem;
+    height: 17.5rem;
     display: flex;
     margin: auto;
     justify-content: center;
@@ -133,11 +140,11 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #f13f68;
     color: white;
-    height: 49px;
-    width: 150px;
+    height: 4.9rem;
+    width: 15rem;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.8rem;
     border: none;
     font-weight: bold;
 }
@@ -152,21 +159,21 @@
     justify-content: center;
     margin: auto;
     flex-wrap: wrap;
-
 }
 
 .pos1_img .top_img{
     display: flex;
     flex-direction: column;
-    width:200px ;
-    height: 200px;
-    margin: 0px 25px;
+    width: 20rem;
+    height: 20rem;
+    margin: 0 2.5rem;
 }
 
 .pos1_img .top_img .blank_img{
-    width: 110px;
+    width: 11rem;
     border: 1px solid white;
-    padding: 15px;
+    padding: 1.5rem;
+    user-select: none;
     margin: auto;
     justify-content: center;
 }
@@ -207,21 +214,22 @@
 .middleSub .middle1 h1{
     font-family:Calibri;
     font-weight: bold;
-    font-size: 60px;
-    margin: 29px 1px 51px 50px;
+    font-size: 6rem;
+    margin: 2.9rem .1rem 5.1rem 5rem;
     color: black;
 }
 
 .middleSub .middle1 .inner_middle .middle_imgs{
     width: 30%;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 10rem;
 }
 
 .middleSub .middle1 .inner_middle .middle_imgs img{
-    width: 80px;
-    padding: 8px;
+    width: 8rem;
+    padding: .8rem;
     margin: auto;
+    user-select: none;
 }
 
 .middleSub .middle1 .inner_middle .middle_text{
@@ -230,28 +238,34 @@
 }
 
 .middleSub .middle1 .inner_middle .middle_text h4{
-    margin-top: 15px;
+    margin-top: 1.5rem;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 2.5rem;
     color: black;
 }
 
 .middleSub .middle1 .inner_middle .middle_text p{
-    margin-top: 5px;
-    font-size: 19px;
+    margin-top: .5rem;
+    font-size: 1.9rem;
     font-weight: 100;
     color: black;
 }
 
 .middleSub .middle2 img{
-    padding: 43px 125px;
-    height: 500px;
+    padding: 4.3rem 12.5rem;
+    height: 50rem;
+    user-select: none;
+}
 
+.middleSub .middle2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle_btn{
-    width: 900px;
-    height: 150px;
+    width: 90rem;
+    height: 15rem;
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -263,26 +277,26 @@
     font-family: 'Montserrat', sans-serif;
     background-color: #f13f68;
     color: white;
-    height: 49px;
-    width: 150px;
+    height: 4.9rem;
+    width: 15rem;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.8rem;
     border: none;
-    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 #mid_btn2{
     font-family: 'Montserrat', sans-serif;
     background-color: none;
     color: black;
-    height: 49px;
-    width: 150px;
+    height: 4.9rem;
+    width: 15rem;
     border: 1px solid black;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 18px;
-    margin-left: 10px;
+    font-size: 1.8rem;
+    margin-left: 1rem;
 }
 
 #mid_btn1:hover{
@@ -301,9 +315,8 @@
     background-image: url('img7.jpg') ;
     background-repeat: no-repeat;
     background-size:cover;
-    /* opacity: 0.7; */
     width: 100%;
-    height: 500px;
+    height: 50rem;
     display: flex;
     flex-direction: column;
     align-items:flex-end;
@@ -315,27 +328,25 @@
     font-stretch:extra-expanded;
     font-weight: bold;
     color: white;
-    font-size: 45px;
-    padding: 125px 120px 0px 0px;
+    font-size: 4.5rem;
+    padding: 12.5rem 12rem 0 0;
 }
 
 .lower_middle .lower_middle_text2 p{
     font-family: Cambria;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    font-size: 25px;
-    padding: 30px 120px 0px 0px;
+    font-size: 2.5rem;
+    padding: 3rem 12rem 0 0;
 }
 
 .last{
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
-    /* border: 5px solid red; */
+    margin-top: 4rem;
 }
 
 .last #last_one{
-    /* border: 2px solid black; */
     padding: 6px;
     width: 50%;
     display: flex;
@@ -350,12 +361,12 @@
     letter-spacing: 00.1cm;
     font-size: 3rem;
     text-align: center;
-    margin-top: 35px;
+    margin-top: 3.5rem;
 }
 
 .last #last_one p{
     text-align: center;
-    padding: 10px;
+    padding: 1rem;
     font-family: 'Raleway', sans-serif;
     color: #c1c1c1;
 }
@@ -363,23 +374,26 @@
 input[type="text"],
 input[type="email"],
 textarea{
-    height: 29px;
-    padding: 7px 10px;
+    height: 2.9rem;
+    padding: .7rem 1rem;
     color: rgb(114, 114, 114);
     width: 80%;
-    margin: 18px 0px 18px 45px;
+    margin: 1.8rem 0 1.8rem 4.5rem;
+    outline: none;
+    font-weight: 500;
+    resize: none;
 }
 
 #last_btn1{
     background-color: #f13f68;
     color: white;
-    height: 49px;
-    width: 150px;
+    height: 4.9rem;
+    width: 15rem;
     border-radius: 3px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.8rem;
     border: none;
-    margin: 40px 0px 10px 278px;
+    margin: 4rem 0 1rem 27.8rem;
 }
 
 #last_btn1:hover{
@@ -388,24 +402,183 @@ textarea{
 
 .last_two{
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .last_two img{
     width: 100%;
+    user-select: none;
 }
 
 .foot{
-    height: 50px;
+    height: 5rem;
     background-color: rgb(78, 78, 78);
 }
 
 .foot p{
     text-align: center;
-    /* margin-top: 8px; */
-    font-size: 20px;
-    padding-top: 10px;
+    margin-top: .8rem;
+    font-size: 2rem;
+    padding-top: 1rem;
     color: white;
     font-family: 'Heebo', sans-serif;
 }
 
 /* #311058 */
+
+
+@media(max-width:1320px){
+    html{
+        font-size: 58%;
+    }
+    .middleSub .middle1 h1{
+        font-size: 5rem;
+        margin: 2.3rem .1rem 4.8rem 4rem;
+    }
+    #last_btn1{
+        height: 4.6rem;
+        width: 14.6rem;
+        font-size: 1.7rem;
+        margin: 4rem 0 1rem 26.5rem;
+    }
+}
+
+@media(max-width:1200px){
+    .lower_middle .lower_middle_text2 p{
+        font-size: 2.1rem;
+        padding: 3rem 8rem 0 0;
+    }
+    .lower_middle .lower_middle_text1 h1{
+        font-size: 4rem;
+        padding: 12.5rem 8rem 0 0;
+    }
+    #last_btn1{
+        height: 4.6rem;
+        width: 14.6rem;
+        font-size: 1.7rem;
+        margin: 4rem 0 1rem 23.4rem;
+    }
+}
+
+@media(max-width:1020px){    
+    .navigation .hed1{
+        font-size: 6.2rem;
+    }
+    .pos1_img .top_img .blank_img{
+        width: 9rem;
+        padding: 1.5rem;
+    }
+    .navigation h4{
+        font-size: 1.5rem;
+    }
+    .pos1_img .top_img{
+        width: 16rem;
+        height: 16rem;
+        margin: 0 2rem;
+    }
+    .middleSub .middle1 h1{
+        font-size: 4rem;
+        margin: 2rem .1rem 4.5rem 3.8rem;
+    }
+    .middleSub .middle1 .inner_middle .middle_text h4{
+        margin-top: 1.5rem;
+        font-size: 2.2rem;
+    }
+    .middleSub .middle1 .inner_middle .middle_text p{
+        margin-top: .5rem;
+        font-size: 1.5rem;
+    }
+    #last_btn1{
+        height: 4.6rem;
+        width: 14.6rem;
+        font-size: 1.7rem;
+        margin: 4rem 0 1rem 20.3rem;
+    }
+}
+
+@media(max-width:950px){
+    html{
+        font-size: 50%;
+    }
+    #menuBtnID{
+        width: 23rem;
+    }
+}
+
+@media(max-width:820px){
+    html{
+        font-size: 45%;
+    }
+}
+
+@media(max-width:740px){
+    html{
+        font-size: 40%;
+    }
+    #menuBtnID{
+        width: 20rem;
+    }
+}
+
+@media(max-width:660px){
+    html{
+        font-size: 36%;
+    }
+    .lower_middle .lower_middle_text2 p{
+        font-size: 2.1rem;
+        padding: 3rem 5.5rem 0 0;
+        text-align: right;
+    }
+    .lower_middle .lower_middle_text1 h1{
+        font-size: 4rem;
+        padding: 12.5rem 5.5rem 0 0;
+    }
+}
+
+@media(max-width:560px){
+    html{
+        font-size: 31%;
+    }
+    #last_btn1{
+        margin: 4rem 0 1rem 17.5rem;
+    }
+    .navigation .hed1{
+        font-size: 5.5rem;
+        text-align: center;        
+    }
+    #hideSample{
+        opacity: 0;
+    }
+}
+
+@media(max-width:465px){
+    html{
+        font-size: 28%;
+    }
+}
+
+@media(max-width:420px){
+    html{
+        font-size: 25%;
+    }
+}
+
+@media(max-width:375px){
+    html{
+        font-size: 22%;
+    }
+}
+
+@media(max-width:330px){
+    html{
+        font-size: 19%;
+    }
+}
+
+@media(max-width:290px){
+    html{
+        font-size: 17%;
+    }
+}
