@@ -81,16 +81,23 @@ html{
 
 
 .navigation .menuBar .menu ul li:hover{
-    color: rgb(140, 140, 175);
+    /* color: rgb(140, 140, 175); */
+    transition: all ease 0.5s;
     cursor: pointer;
 }
-
-.navigation .menuBar .menu ul li:hover>ul{
-    display: block;
+#ula,#ulb{
     cursor: pointer;
     position: absolute;
     z-index: 1;
+    display: none;
 }
+
+/* .navigation .menuBar .menu ul li:hover>ul{
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1; 
+}*/
 
 #menu_btn{
     font-family: 'Montserrat', sans-serif;
@@ -425,7 +432,11 @@ textarea{
     color: white;
     font-family: 'Heebo', sans-serif;
 }
-
+.material-icons{
+    position: relative;
+    top:1.35vh;
+    transform: scale(1.4);
+}
 /* #311058 */
 
 
