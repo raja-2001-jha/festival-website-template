@@ -30,19 +30,21 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li>Website Templetes<span class="material-icons">arrow_drop_down
+                    <li onclick="func('a')">
+                        Website Templetes
+                        <span class="material-icons">arrow_drop_down
                         </span>
-                        <ul>
+                        <ul id="ula">
                             <li>Resume Website </li>
                             <li>CV Website </li>
                             <li>Music Website </li>
                             <li>Mobile Website </li>
                         </ul>
                     </li>
-                    <li>More Website Templetes<span class="material-icons">
+                    <li onclick="func('b')">More Website Templetes<span class="material-icons">
                             arrow_drop_down
                         </span>
-                        <ul>
+                        <ul id="ulb">
                             <li>Business Website </li>
                             <li>eCommerce Website</li>
                             <li>Hotel Website </li>
@@ -198,7 +200,26 @@
 </html>
 
 
-
+<script>
+    function func(ch){
+        var ab="ul" + ch;
+        console.log(ab)
+        var ula=document.getElementById('ula')
+        var ulb=document.getElementById('ulb')
+        var ul=document.getElementById(ab)
+        var sty=ul.style.display
+        if(sty=="block"){
+            ula.style.display="none";
+            ulb.style.display="none";
+        }
+        else{
+            ula.style.display="none";
+            ulb.style.display="none";
+            ul.style.display="block"
+        }
+        
+    }
+</script>
 
 
 
